@@ -1,8 +1,8 @@
 ![Vesper preview](preview.png)
 
-# Vesper on GitHub
+# Vesper on ChatGPT
 
-Peppermint and orange flavored dark theme for Github.
+Peppermint and orange flavored dark theme for ChatGPT.
 
 ## Installation
 
