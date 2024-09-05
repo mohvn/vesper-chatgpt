@@ -8,6 +8,7 @@
 @font-face {
     font-family: 'Inter';
 }
+
 @-moz-document domain("chatgpt.com") {
     :root {
         --gray-700: #1e1e1e;
@@ -17,30 +18,49 @@
         --sidebar-surface-secondary: #1e1e1e;
         --border-color: #1e1e1e;
     }
+
     .dark {
         --text-error: #bf616a;
         --link: #78869c;
         --link-hover: #5e83b3;
     }
+
     html,
     body,
     * {
         letter-spacing: -0.5px !important;
     }
+
     .border-token-border-medium {
         border-color: #1e1e1e;
     }
-    .hljs-keyword,.hljs-attr,.hljs-selector-pseudo {
+
+    .hljs-keyword,
+    .hljs-attr,
+    .hljs-selector-pseudo,
+    .hljs-selector-attr {
         color: #A0A0A0;
     }
-    .hljs-title.class_,.hljs-variable.language_,.hljs-attribute {
+
+    .hljs-title.class_,
+    .hljs-variable.language_,
+    .hljs-attribute {
         color: #ffffff;
     }
+
     .hljs-string {
         color: #99ffe4;
     }
-    .hljs-title.function_,.hljs-name,.hljs-number,.hljs-literal,.hljs-built_in,.hljs-selector-class,.hljs-type,.hljs-selector-id {
+
+    .hljs-title.function_,
+    .hljs-name,
+    .hljs-number,
+    .hljs-literal,
+    .hljs-built_in,
+    .hljs-selector-class,
+    .hljs-type,
+    .hljs-selector-id {
         color: #ffc799;
     }
-    
+
 }
