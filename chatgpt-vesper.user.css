@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ChatGPT Vesper
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        2.0.0
 @license     MIT
 @author         mohvn
 ==/UserStyle== */
@@ -9,7 +9,7 @@
     font-family: 'Inter';
 }
 
-@-moz-document domain("chatgpt.com") {
+@-moz-document url-prefix("https://chatgpt.com/") {
     :root {
         --gray-700: #1e1e1e;
         --gray-750: #1e1e1e;
